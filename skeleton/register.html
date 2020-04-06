@@ -1,0 +1,167 @@
+<form action="#" method="post" style="width: 50%;">
+
+    <div class="text-center mb-4">
+      <h1 class="h3 mb-3 font-weight-normal" style="margin-left: 21.5%;">Register</h1>
+      <p style="margin-left: 11%;">Join our family and make a wish!</p>
+    </div>
+
+    <div class="form-label-group">
+      <input type="text" id="inputUsername" name="username" class="form-control" placeholder="Username" required=""
+        autofocus="">
+      <label for="inputUsername">Username</label>
+    </div>
+
+    <div class="form-label-group">
+      <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required="">
+      <label for="inputPassword">Password</label>
+    </div>
+
+    <div class="form-label-group">
+      <input type="password" id="inputRePassword" name="rePassword" class="form-control" placeholder="Re-Password"
+        required="">
+      <label for="inputRePassword">Re-Password</label>
+    </div>
+
+    <div class="btn-center">
+        <button class="btn btn-lg btn-dark btn-block " type="submit">Sign Up</button>
+    </div>
+
+
+    <div class="text-center mb-4">
+      <p class="alreadyUser"> Already have account? Then just
+        <a href="#">Sign-In</a>!
+      </p>
+    </div>
+
+
+  </form>
+  <style>
+*{
+  font-family: cursive;
+  
+}
+.btn-center{
+    width: 100%;
+    margin-left: 38%;
+}
+.text-center{
+    margin-left: 24.5%;
+}
+a{
+  text-decoration: none;
+}
+.a-button{
+  color: rgb(46, 45, 45);
+  padding:10px;
+  transition: ease-in-out color .15s;
+}
+.a-button:hover{
+  color: rgb(78, 58, 2);
+  text-decoration: none;
+}
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+
+a.trek-details:hover{
+  text-decoration: none;
+  background: #333;
+  color: white;
+  border: 2px solid #333;
+}
+
+form{
+    background-color:rgba(255, 255, 255, 0.479);
+    padding:2%;
+    width: 80%;
+    margin: 0 auto;
+    margin-top:2%;
+    border:solid;
+    border-radius:1rem;
+    border-color:rgb(241, 179, 6);
+    box-shadow:0 0 1.5rem 0 rgba(0, 0, 0, 0.712);
+}
+
+input.form-control{
+    width: 50%;
+    /* margin: 0 auto; */
+    margin-left: 24.5%;
+}
+
+textarea.form-control{
+    width: 50%;
+    margin: 0 auto;
+    resize: none;
+    height: 20vh;
+}
+form label{
+  display:block;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.btn{
+  width: 25%;
+  margin: 0 auto;
+  background-color: rgba(51, 51, 51, 0.842);
+  color: white;
+}
+
+.infoType{
+   text-decoration: underline;
+}
+
+.trek-description{
+   font-style: italic;
+}
+.text-highlighted{
+  color: rgb(248, 184, 8);
+}
+
+nav{
+margin-bottom: 2%;
+}
+
+.treksPlaceholder{
+  background-color:rgba(255, 255, 255, 0.849);
+flex: 0 1 30%;
+margin: 2%;
+max-width:25%;
+border:solid;
+border-color:rgb(241, 179, 6);
+box-shadow:0 0 1.5rem 0 rgba(0, 0, 0, 0.712);
+}
+
+
+@media screen and (max-width:900px){
+.treksPlaceholder{
+  flex: 0 1 80%;
+ 
+}
+}
+
+.details-img{
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  position: static;
+  top: 0;
+  left: 0;
+  transform: none;
+  border:1px solid black;
+}
+
+</style>
